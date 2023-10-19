@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0; /* */
+    box-sizing: border-box; /* */
+}
+
+p {
+    color: #7C81AD; /*цвет*/
+    font-size: 32px; /*размер шришта*/
+    font-family: Courier; /*шрифт*/
+    margin: 25px 0; /* */
+}
+
+h2 {
+    color: #E5C3A6;
+    font-size: 64px;
+}
+
+a {
+    text-decoration: none; /*декорация текста*/
+    color: #2bb0c2;
+    font-size: 25px;
+    font-family: Impact;
+    margin: 20px 0;
+    display: inline-block; /* */
+    border-bottom: 1px solid transparent; /*нижняя граница*/
+    transition: 0.2 ease-in; /* */
+    
+}
+
+a:hover { /*для всех сылок на которые наведена мышка*/
+    border-bottom-color: #E5C3A6; /*цвет подчеркивания*/
+}
+
+body {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%; /*сколько места по горизонтале на сайте мы выденяем картинке или тексту*/
+    height: auto; /*выравнивание по вертикале*/
+    display: block; /* */
+}
+
+div {
+    width: 90%; /*радаем размер div*/
+    margin: auto;
+    padding: 50px; /*отступ от края сайта до контейнера*/
+    background-color: rgb(46, 67, 116); /*цвет заднего фона текста*/
+    box-shadow: 0 0 50px 1px rgb(0, 0, 255); /*тени*/
+}
